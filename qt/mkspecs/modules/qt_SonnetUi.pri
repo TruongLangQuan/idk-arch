@@ -1,0 +1,12 @@
+QT.SonnetUi.VERSION = 5.116.0
+QT.SonnetUi.MAJOR_VERSION = 5
+QT.SonnetUi.MINOR_VERSION = 116
+QT.SonnetUi.PATCH_VERSION = 0
+QT.SonnetUi.name = KF5SonnetUi
+QT.SonnetUi.module = KF5SonnetUi
+QT.SonnetUi.defines = 
+QT.SonnetUi.includes =  $$PWD/../../../../include/KF5/Sonnet $$PWD/../../../../include/KF5/SonnetUi
+QT.SonnetUi.private_includes =
+QT.SonnetUi.libs = $$PWD/../../../../lib
+QT.SonnetUi.depends = widgets
+QT.SonnetUi.module_config = 
