@@ -1,0 +1,40 @@
+2026-01-01 18:37:49.776 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-01-01 18:37:49.776 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-01-01 18:37:49.776 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-01-01 18:37:49.776 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-01-01 18:37:50.232 [error] Copilot extension not found
+2026-01-01 18:37:51.186 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/truonglangquan/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/prebuilds/linux-x64
+2026-01-01 18:37:51.186 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/truonglangquan/.vscode/extensions/github.copilot-chat-0.35.2/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-01-01 18:37:52.037 [info] Found 1 entries to copy: rg
+2026-01-01 18:37:52.038 [info] Found 1 entries to copy: pty.node
+2026-01-01 18:37:52.259 [info] Using the Electron fetcher.
+2026-01-01 18:37:52.290 [info] Logged in as TruongLangQuan
+2026-01-01 18:37:53.070 [info] Got Copilot token for TruongLangQuan
+2026-01-01 18:37:53.070 [info] Copilot Chat: 0.35.2, VS Code: 1.107.1
+2026-01-01 18:37:53.112 [info] activationBlocker from 'languageModelAccess' took for 3004ms
+2026-01-01 18:37:54.397 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-01-01 18:37:54.397 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-01-01 18:37:54.418 [info] Registering default platform agent...
+2026-01-01 18:37:54.421 [info] [code-referencing] Public code references are enabled.
+2026-01-01 18:37:54.422 [info] activationBlocker from 'conversationFeature' took for 4347ms
+2026-01-01 18:37:54.441 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-01-01 18:37:54.453 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-01-01 18:37:54.483 [info] Fetched model metadata in 4320ms 3c64d53d-4840-41b2-b546-76fd28d5131e
+2026-01-01 18:37:54.542 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-01-01 18:37:54.690 [info] Latest entry: ccreq:latest.copilotmd
+2026-01-01 18:37:54.692 [info] ccreq:97c0bffb.copilotmd | markdown
+2026-01-01 18:42:29.897 [warning] [relatedFiles] unknown language qml
+2026-01-01 18:42:30.367 [info] [fetchCompletions] Request f4f5ec28-f382-4b56-ac50-5a0712d6825f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 407.29289700003574ms
+2026-01-01 18:42:30.411 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-01 18:42:32.455 [info] message 0 returned. finish reason: [stop]
+2026-01-01 18:42:32.455 [info] request done: requestId: [ff7573cf-6a3c-4b76-95cf-fc646fd32cec] model deployment ID: []
+2026-01-01 18:42:33.146 [info] ccreq:f97a7a4c.copilotmd | success | nes-callisto | 963ms | [XtabProvider]
+2026-01-01 18:42:34.158 [info] ccreq:c2774bed.copilotmd | markdown
+2026-01-01 18:43:08.561 [warning] [relatedFiles] unknown language properties
+2026-01-01 18:43:08.811 [info] [fetchCompletions] Request 27a4f49f-3893-4e23-aa4f-8de25ade7878 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 230.2693839999847ms
+2026-01-01 18:43:09.101 [info] [fetchCompletions] Request 9a513c97-27c3-4c69-a560-9f94ea3195d1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 208.5133040000219ms
+2026-01-01 18:43:09.162 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-01-01 18:43:11.173 [info] message 0 returned. finish reason: [stop]
+2026-01-01 18:43:11.173 [info] request done: requestId: [f4b26422-32f1-494e-a733-eaefc99fa52f] model deployment ID: []
+2026-01-01 18:43:11.788 [info] ccreq:2b6fcb58.copilotmd | success | nes-callisto | 884ms | [XtabProvider]
+2026-01-01 18:43:12.797 [info] ccreq:e2c04902.copilotmd | markdown

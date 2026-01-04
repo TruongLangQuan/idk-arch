@@ -1,0 +1,41 @@
+2026-01-01 18:47:32.402 [info] Started local extension host with pid 1710.
+2026-01-01 18:47:38.744 [error] [Extension Host] (node:1710) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-01 18:47:38.921 [error] [Extension Host] (node:1710) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-01-01 18:47:40.065 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-01 18:47:40.869 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-01 18:47:41.975 [error] [Extension Host] Sending request failed.
+2026-01-01 18:47:42.002 [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (file:///opt/visual-studio-code/resources/app/out/bootstrap-fork.js:3:11805)
+	at process.emit (node:events:519:28)
+2026-01-01 18:47:42.021 [error] [Extension Host] Sending request failed.
+2026-01-01 18:47:42.179 [error] [Extension Host] Sending request failed.
+2026-01-01 18:47:42.804 [error] [Extension Host] Sending request failed.
+2026-01-01 18:47:42.834 [error] [Extension Host] Sending request failed.
+2026-01-01 18:47:42.860 [error] chatParticipant must be declared in package.json: claude-code
+2026-01-01 18:47:42.942 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 18:47:43.570 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-01 18:47:43.956 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-01 18:47:46.052 [info] [perf] Render performance baseline is 183ms
+2026-01-01 18:48:33.099 [error] Cannot read properties of undefined (reading 'properties'): TypeError: Cannot read properties of undefined (reading 'properties')
+	at Object.provideCompletionItems (/home/truonglangquan/.vscode/extensions/felgo.felgo-2.0.1/src/extension.js:217:64)
+	at ON.provideCompletionItems (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:155157)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:178332
+	at si.G (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:169435)
+	at si.$provideCompletionItems (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:178320)
+	at l5.S (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125043)
+	at l5.Q (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124823)
+	at l5.M (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123874)
+	at l5.L (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123017)
+	at _d.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121814)
+	at I.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at _d.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:9330)
+	at I.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7564)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17)

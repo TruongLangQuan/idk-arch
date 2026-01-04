@@ -1,0 +1,15 @@
+2026-01-02 23:00:34.990 [info] [2026-01-02 16:00:34.887] [        114ms] [/home/truonglangquan/.config] git rev-parse --show-toplevel • FAILED
+2026-01-02 23:00:34.990 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-01-02 23:00:35.138 [info] [2026-01-02 16:00:35.138] [         17ms] [/home/truonglangquan/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher] git rev-parse --show-toplevel • FAILED
+2026-01-02 23:00:35.138 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-01-02 23:00:35.177 [info] [2026-01-02 16:00:35.177] [         17ms] [/home/truonglangquan/.config/quickshell/ii/modules/ii/bar] git rev-parse --show-toplevel • FAILED
+2026-01-02 23:00:35.177 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+

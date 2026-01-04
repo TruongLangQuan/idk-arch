@@ -1,0 +1,47 @@
+2026-01-01 10:36:01.639 [info] GitLens v17.8.1 activating in Visual Studio Code (1.107.1) on the desktop; mode=production, language='en', logLevel='warn', defaultDateLocale='null' (vscode|8e89ff2ec281a3e9e162bfbfe46a97b5a53d072cb05b141a3f6e32e816b870e8|57a3985b-e060-4de9-944f-47966967e8cb1767238549696)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+[2026-01-01 03:36:01.486] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2026-01-01 03:36:01.488] [GIT          ] [/home/truonglangquan/.config] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [198ms]
+
+2026-01-01 10:36:02.321 [info] [2026-01-01 03:36:01.904] [           10] GitCodeLensProvider.provideCodeLenses(TextDocument(qml, dirty=false, file:///home/truonglangquan/.config/quickshell/ii/modules/ii/bar/BarContent.qml)) Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2026-01-01 03:36:01.904] [GIT          ] [/home/truonglangquan/.config/quickshell/ii/modules/ii/bar] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [40ms]
+
+2026-01-01 10:36:05.578 [info] [2026-01-01 03:36:05.334] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2026-01-01 03:36:05.334] [GIT          ] [/home/truonglangquan/.config/hypr] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [17ms]
+
+2026-01-01 10:36:13.296 [info] [2026-01-01 03:36:12.794] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2026-01-01 03:36:12.795] [GIT          ] [/home/truonglangquan/.config/hypr/hyprland] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [20ms]
+
+2026-01-01 10:36:15.800 [info] [2026-01-01 03:36:15.461] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2026-01-01 03:36:15.461] [GIT          ] [/home/truonglangquan/.config/hypr/hyprland] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [18ms]
+
+2026-01-01 10:36:18.302 [info] [2026-01-01 03:36:18.071] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2026-01-01 03:36:18.071] [GIT          ] [/home/truonglangquan/.config/hypr/hyprland] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [20ms]
+
+2026-01-01 10:36:19.805 [info] [2026-01-01 03:36:19.441] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2026-01-01 03:36:19.442] [GIT          ] [/home/truonglangquan/.config/hypr/hyprland] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [21ms]
+
+2026-01-01 10:36:21.879 [info] [2026-01-01 03:36:21.875] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2026-01-01 03:36:21.876] [GIT          ] [/home/truonglangquan/.config/hypr/hyprland] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [139ms]
+
+2026-01-01 10:36:23.382 [info] [2026-01-01 03:36:23.127] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel): fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[2026-01-01 03:36:23.128] [GIT          ] [/home/truonglangquan/.config/hypr/hyprland] git rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [17ms]
+

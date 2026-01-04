@@ -1,0 +1,20 @@
+2026-01-01 18:37:39.642 [info] Started local extension host with pid 1463.
+2026-01-01 18:37:47.007 [info] Extension host (LocalProcess pid: 1463) is unresponsive.
+2026-01-01 18:37:47.123 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-01 18:37:47.534 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-01 18:37:47.897 [error] [Extension Host] (node:1463) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-01 18:37:47.926 [error] [Extension Host] (node:1463) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-01-01 18:37:48.066 [info] Extension host (LocalProcess pid: 1463) is responsive.
+2026-01-01 18:37:49.241 [info] [perf] Render performance baseline is 287ms
+2026-01-01 18:37:51.003 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-01 18:37:51.190 [error] chatParticipant must be declared in package.json: claude-code
+2026-01-01 18:41:28.929 [error] [Extension Host] Sending request failed.
+2026-01-01 18:41:29.037 [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (file:///opt/visual-studio-code/resources/app/out/bootstrap-fork.js:3:11805)
+	at process.emit (node:events:519:28)
+2026-01-01 18:41:29.088 [error] [Extension Host] Sending request failed.
+2026-01-01 18:41:29.131 [error] [Extension Host] Sending request failed.
+2026-01-01 18:41:29.141 [error] [Extension Host] Sending request failed.
+2026-01-01 18:41:29.147 [error] [Extension Host] Sending request failed.
+2026-01-01 18:41:29.928 [error] An unknown error occurred. Please consult the log for more details.

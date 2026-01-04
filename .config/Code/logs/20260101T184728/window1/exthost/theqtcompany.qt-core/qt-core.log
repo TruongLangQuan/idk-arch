@@ -1,0 +1,10 @@
+2026-01-01 18:47:42.509 [info] [extension] Activating theqtcompany.qt-core
+2026-01-01 18:47:42.509 [info] [project] Creating project:"/home/truonglangquan/.config"
+2026-01-01 18:47:42.509 [info] [vcpkg] vcpkg is not installed
+2026-01-01 18:47:42.509 [info] [qtpaths] Found qmake in PATH: /usr/bin/qmake
+2026-01-01 18:47:42.509 [info] [qtpaths] /usr/bin/qmake already exists in the settings
+2026-01-01 18:47:42.509 [info] [project] Setting Qt installation root for /home/truonglangquan/.config to: 
+2026-01-01 18:47:42.509 [info] [project] Setting additional Qt paths for /home/truonglangquan/.config to: 
+2026-01-01 18:47:42.509 [info] [project] Config values initialized for:/home/truonglangquan/.config
+2026-01-01 18:50:57.084 [info] [extension] Deactivating qt-core
+2026-01-01 18:50:57.085 [info] [project] Disposing project:/home/truonglangquan/.config

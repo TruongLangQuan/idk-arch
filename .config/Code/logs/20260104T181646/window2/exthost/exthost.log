@@ -1,0 +1,19 @@
+2026-01-04 18:34:50.476 [info] Extension host with pid 2944 started
+2026-01-04 18:34:50.476 [info] Skipping acquiring lock for /home/truonglangquan/.config/Code/User/workspaceStorage/ff5c77a167cdae08b2722211103ba1f4.
+2026-01-04 18:34:51.216 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-04 18:34:51.327 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-04 18:34:51.406 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2026-01-04 18:34:55.227 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-04 18:34:55.530 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-01-04 18:34:55.834 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-04 18:34:55.970 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-04 18:34:56.412 [info] Eager extensions activated
+2026-01-04 18:34:56.847 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-04 18:34:56.859 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-04 18:34:56.936 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2026-01-04 18:34:57.536 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-01-04 18:34:57.763 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-01-04 18:34:57.777 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2026-01-04 18:34:57.824 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at VXt.$registerAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:517:9889)
+2026-01-04 18:35:37.883 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3696

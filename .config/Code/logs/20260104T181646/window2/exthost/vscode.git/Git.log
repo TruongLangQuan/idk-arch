@@ -1,0 +1,55 @@
+2026-01-04 18:34:57.840 [info] [main] Log level: Info
+2026-01-04 18:34:57.840 [info] [main] Validating found git in: "git"
+2026-01-04 18:34:57.840 [info] [main] Using git "2.52.0" from "git"
+2026-01-04 18:34:57.840 [info] [Model][doInitialScan] Initial repository scan started
+2026-01-04 18:34:57.840 [info] > git rev-parse --show-toplevel [15ms]
+2026-01-04 18:34:57.840 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [110ms]
+2026-01-04 18:34:57.840 [info] [Model][openRepository] Opened repository (path): /home/truonglangquan/idk-code/idk-arch
+2026-01-04 18:34:57.840 [info] [Model][openRepository] Opened repository (real path): /home/truonglangquan/idk-code/idk-arch
+2026-01-04 18:34:57.840 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-04 18:34:57.868 [info] > git rev-parse --show-toplevel [1343ms]
+2026-01-04 18:34:57.873 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-01-04 18:34:57.876 [info] > git config --get commit.template [1361ms]
+2026-01-04 18:34:58.389 [info] > git check-ignore -v -z --stdin [500ms]
+2026-01-04 18:34:58.699 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [81ms]
+2026-01-04 18:34:58.721 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/truonglangquan/idk-code/idk-arch/.git/refs/remotes/origin/main'
+2026-01-04 18:34:58.745 [info] > git rev-parse refs/remotes/origin/main [24ms]
+2026-01-04 18:34:58.828 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [40ms]
+2026-01-04 18:34:59.134 [info] > git status -z -uall [366ms]
+2026-01-04 18:34:59.212 [info] > git config --get commit.template [14ms]
+2026-01-04 18:34:59.212 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [38ms]
+2026-01-04 18:34:59.258 [info] > git config --get --local branch.main.vscode-merge-base [33ms]
+2026-01-04 18:34:59.259 [warning] [Git][config] git config failed: Failed to execute git
+2026-01-04 18:34:59.275 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2026-01-04 18:34:59.300 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/truonglangquan/idk-code/idk-arch/.git/refs/remotes/origin/main'
+2026-01-04 18:34:59.302 [info] > git reflog main --grep-reflog=branch: Created from *. [33ms]
+2026-01-04 18:34:59.331 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [21ms]
+2026-01-04 18:34:59.341 [info] > git rev-parse refs/remotes/origin/main [40ms]
+2026-01-04 18:34:59.403 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-01-04 18:34:59.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [63ms]
+2026-01-04 18:34:59.453 [info] > git config --add --local branch.main.vscode-merge-base origin/main [38ms]
+2026-01-04 18:34:59.481 [info] > git status -z -uall [123ms] (cancelled)
+2026-01-04 18:34:59.485 [info] > git config --get commit.template [6ms]
+2026-01-04 18:34:59.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2026-01-04 18:34:59.539 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/truonglangquan/idk-code/idk-arch/.git/refs/remotes/origin/main'
+2026-01-04 18:34:59.542 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2026-01-04 18:34:59.618 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [55ms]
+2026-01-04 18:35:00.231 [info] > git status -z -uall [679ms]
+2026-01-04 18:35:00.969 [info] > git merge-base refs/heads/main refs/remotes/origin/main [690ms]
+2026-01-04 18:35:00.977 [info] > git merge-base refs/heads/main refs/remotes/origin/main [713ms]
+2026-01-04 18:35:01.058 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 6c4a22d076a8915ab8cfd0cef9fbe2fca7e0cc29...refs/remotes/origin/main -- [72ms]
+2026-01-04 18:35:01.060 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 6c4a22d076a8915ab8cfd0cef9fbe2fca7e0cc29...refs/remotes/origin/main -- [82ms]
+2026-01-04 18:35:01.250 [info] > git config --get commit.template [17ms]
+2026-01-04 18:35:01.302 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2026-01-04 18:35:01.310 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/truonglangquan/idk-code/idk-arch/.git/refs/remotes/origin/main'
+2026-01-04 18:35:01.315 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2026-01-04 18:35:01.340 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-01-04 18:35:01.577 [info] > git status -z -uall [254ms]
+2026-01-04 18:35:01.950 [info] > git check-ignore -v -z --stdin [13ms]
+2026-01-04 18:35:37.593 [info] > git config --get commit.template [4ms]
+2026-01-04 18:35:37.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2026-01-04 18:35:37.631 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/truonglangquan/idk-code/idk-arch/.git/refs/remotes/origin/main'
+2026-01-04 18:35:37.635 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2026-01-04 18:35:37.690 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-01-04 18:35:37.698 [info] > git status -z -uall [48ms]
+2026-01-04 18:35:42.247 [info] > git check-ignore -v -z --stdin [3ms]

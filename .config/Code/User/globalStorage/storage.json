@@ -1,0 +1,86 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "8e89ff2ec281a3e9e162bfbfe46a97b5a53d072cb05b141a3f6e32e816b870e8",
+    "telemetry.devDeviceId": "7a76dd18-a9f5-4901-b15b-787b92c6d99e",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/truonglangquan/.config"
+            },
+            {
+                "folderUri": "file:///home/truonglangquan/idk-code/idk-arch"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/truonglangquan/.config/quickshell/ii": "__default__profile__",
+            "file:///home/truonglangquan/.config": "__default__profile__",
+            "file:///home/truonglangquan/idk-code/idk-arch": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/truonglangquan/idk-code/idk-arch",
+            "backupPath": "/home/truonglangquan/.config/Code/Backups/f0e5e546a584dcf6e5ce17f05b563be0",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 957,
+                "height": 1074
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#000000",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#ffffff",
+            "background": "#000000",
+            "editorBackground": "#000000",
+            "titleBarBackground": "#000000",
+            "activityBarBackground": "#050505",
+            "sideBarBackground": "#0d0d0d",
+            "statusBarBackground": "#c4c4c4",
+            "statusBarNoFolderBackground": "#8c8c8c"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 239,
+            "auxiliaryBarWidth": 239,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 239,
+            "auxiliaryBarWidth": 239,
+            "workspaces": {
+                "91b486a3b72c81d60de24293d8c788e9": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "3999d3756b9710858849ff37253c6a82": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "ff5c77a167cdae08b2722211103ba1f4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

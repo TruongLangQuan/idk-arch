@@ -1,0 +1,50 @@
+2025-12-25 20:06:01.575 [info] [2025-12-25 13:06:01.478] [        173ms] [/home/truonglangquan/.config] git rev-parse --show-toplevel • FAILED
+2025-12-25 20:06:01.575 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-12-25 20:06:03.144 [info] [2025-12-25 13:06:03.144] [        280ms] [/home/truonglangquan/.config/quickshell/ii/modules/ii/bar] git rev-parse --show-toplevel • FAILED
+2025-12-25 20:06:03.144 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-12-25 20:06:13.460 [info] [2025-12-25 13:06:13.460] [         53ms] [/home/truonglangquan/.config/illogical-impulse] git rev-parse --show-toplevel • FAILED
+2025-12-25 20:06:13.460 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-12-25 20:07:34.450 [info] [2025-12-25 13:07:34.450] [         15ms] [/home/truonglangquan/.config/quickshell/ii/modules/ii/bar] git rev-parse --show-toplevel • FAILED
+2025-12-25 20:07:34.451 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-12-25 20:16:08.466 [info] [2025-12-25 13:16:08.466] [         22ms] [/home/truonglangquan/.config/quickshell/ii/modules/ii/bar] git rev-parse --show-toplevel • FAILED
+2025-12-25 20:16:08.467 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-12-25 20:16:11.735 [info] [2025-12-25 13:16:11.735] [         30ms] [/home/truonglangquan/.config/quickshell/ii/modules/ii/bar] git rev-parse --show-toplevel • FAILED
+2025-12-25 20:16:11.735 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-12-25 20:20:05.306 [info] [2025-12-25 13:20:05.306] [         20ms] [/home/truonglangquan/.config/quickshell/ii/modules/ii/bar] git rev-parse --show-toplevel • FAILED
+2025-12-25 20:20:05.306 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-12-25 20:20:09.155 [info] [2025-12-25 13:20:09.155] [         17ms] [/home/truonglangquan/.config/quickshell/ii/modules/ii/bar] git rev-parse --show-toplevel • FAILED
+2025-12-25 20:20:09.155 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-12-25 20:23:13.664 [info] [2025-12-25 13:23:13.664] [         23ms] [/home/truonglangquan/.config/quickshell/ii/modules/ii/bar] git rev-parse --show-toplevel • FAILED
+2025-12-25 20:23:13.664 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-12-25 20:23:17.106 [info] [2025-12-25 13:23:17.106] [         21ms] [/home/truonglangquan/.config/quickshell/ii/modules/ii/bar] git rev-parse --show-toplevel • FAILED
+2025-12-25 20:23:17.106 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+

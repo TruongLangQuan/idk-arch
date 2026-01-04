@@ -1,0 +1,172 @@
+2026-01-01 18:47:34.686 [info] Extension host with pid 1710 started
+2026-01-01 18:47:34.686 [info] Skipping acquiring lock for /home/truonglangquan/.config/Code/User/workspaceStorage/3999d3756b9710858849ff37253c6a82.
+2026-01-01 18:47:35.239 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-01 18:47:35.332 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-01 18:47:35.432 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-01-01 18:47:35.458 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-01-01 18:47:35.517 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-01-01 18:47:35.791 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-01-01 18:47:35.881 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilotcli'
+2026-01-01 18:47:39.058 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-01 18:47:39.157 [info] ExtensionService#_doActivateExtension Delgan.qml-format, startup: false, activationEvent: 'onLanguage:qml'
+2026-01-01 18:47:39.167 [info] ExtensionService#_doActivateExtension felgo.felgo, startup: false, activationEvent: 'onLanguage:qml'
+2026-01-01 18:47:39.398 [info] ExtensionService#_doActivateExtension theqtcompany.qt-core, startup: false, activationEvent: 'onLanguage:qml', root cause: theqtcompany.qt-qml
+2026-01-01 18:47:39.923 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-01-01 18:47:40.427 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-01 18:47:40.616 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-01 18:47:40.722 [info] ExtensionService#_doActivateExtension theqtcompany.qt-qml, startup: false, activationEvent: 'onLanguage:qml'
+2026-01-01 18:47:42.390 [info] Eager extensions activated
+2026-01-01 18:47:42.703 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at VXt.$registerAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:517:9889)
+2026-01-01 18:47:42.769 [error] Error: write EPIPE
+	at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+	at writeGeneric (node:internal/stream_base_commons:150:3)
+	at Socket._writeGeneric (node:net:966:11)
+	at Socket._write (node:net:978:8)
+	at writeOrBuffer (node:internal/streams/writable:572:12)
+	at _write (node:internal/streams/writable:501:10)
+	at Writable.write (node:internal/streams/writable:510:10)
+	at /home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:78:14213
+	at new Promise (<anonymous>)
+	at oM.write (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:78:14134)
+	at ST.doWrite (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:50:1627)
+	at /home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:50:1526
+2026-01-01 18:47:42.775 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at Rk.shutdown (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:8500)
+	at Rk.stop (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:8079)
+	at Rk.stop (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:91:31107)
+	at Rk.doInitialize (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async Rk.start (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:4473)
+2026-01-01 18:47:42.817 [error] Error: Cannot call write after a stream was destroyed
+	at _write (node:internal/streams/writable:491:11)
+	at Writable.write (node:internal/streams/writable:510:10)
+	at /home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:78:14213
+	at new Promise (<anonymous>)
+	at oM.write (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:78:14134)
+	at ST.doWrite (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:50:1627)
+	at /home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:50:1526
+	at runNextTicks (node:internal/process/task_queues:65:5)
+	at process.processImmediate (node:internal/timers:453:9)
+2026-01-01 18:47:42.821 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at Rk.shutdown (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:8500)
+	at Rk.stop (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:8079)
+	at Rk.stop (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:91:31107)
+	at Rk.doInitialize (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:7904)
+	at processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at runNextTicks (node:internal/process/task_queues:69:3)
+	at process.processImmediate (node:internal/timers:453:9)
+	at async Rk.start (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:4473)
+2026-01-01 18:47:42.829 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-01 18:47:42.836 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-01 18:47:42.890 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2026-01-01 18:47:43.467 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-01-01 18:47:43.713 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-01-01 18:47:43.741 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2026-01-01 18:47:43.790 [error] Error: Cannot call write after a stream was destroyed
+	at _write (node:internal/streams/writable:491:11)
+	at Writable.write (node:internal/streams/writable:510:10)
+	at /home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:78:14213
+	at new Promise (<anonymous>)
+	at oM.write (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:78:14134)
+	at ST.doWrite (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:50:1627)
+	at /home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:50:1526
+	at runNextTicks (node:internal/process/task_queues:65:5)
+	at process.processImmediate (node:internal/timers:453:9)
+2026-01-01 18:47:43.793 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at Rk.shutdown (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:8500)
+	at Rk.stop (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:8079)
+	at Rk.stop (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:91:31107)
+	at Rk.doInitialize (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:7904)
+	at processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at runNextTicks (node:internal/process/task_queues:69:3)
+	at process.processImmediate (node:internal/timers:453:9)
+	at async Rk.start (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:4473)
+2026-01-01 18:47:43.796 [error] Error: write EPIPE
+	at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+	at writeGeneric (node:internal/stream_base_commons:150:3)
+	at Socket._writeGeneric (node:net:966:11)
+	at Socket._write (node:net:978:8)
+	at writeOrBuffer (node:internal/streams/writable:572:12)
+	at _write (node:internal/streams/writable:501:10)
+	at Writable.write (node:internal/streams/writable:510:10)
+	at /home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:78:14213
+	at new Promise (<anonymous>)
+	at oM.write (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:78:14134)
+	at ST.doWrite (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:50:1627)
+	at /home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:50:1526
+	at runNextTicks (node:internal/process/task_queues:65:5)
+	at process.processImmediate (node:internal/timers:453:9)
+2026-01-01 18:47:43.802 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at Rk.shutdown (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:8500)
+	at Rk.stop (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:8079)
+	at Rk.stop (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:91:31107)
+	at Rk.doInitialize (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:7904)
+	at processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at runNextTicks (node:internal/process/task_queues:69:3)
+	at process.processImmediate (node:internal/timers:453:9)
+	at async Rk.start (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:4473)
+2026-01-01 18:47:43.805 [error] Error: Cannot call write after a stream was destroyed
+	at _write (node:internal/streams/writable:491:11)
+	at Writable.write (node:internal/streams/writable:510:10)
+	at /home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:78:14213
+	at new Promise (<anonymous>)
+	at oM.write (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:78:14134)
+	at ST.doWrite (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:50:1627)
+	at /home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:50:1526
+2026-01-01 18:47:43.807 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at Rk.shutdown (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:8500)
+	at Rk.stop (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:8079)
+	at Rk.stop (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:91:31107)
+	at Rk.doInitialize (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async Rk.start (/home/truonglangquan/.vscode/extensions/theqtcompany.qt-qml-1.10.0/out/extension.js:88:4473)
+2026-01-01 18:47:46.835 [warning] The task [Qt, Acquire Port] uses an undefined task type. The task will be ignored in the future.
+2026-01-01 18:48:33.079 [error] [felgo.felgo] provider FAILED
+2026-01-01 18:48:33.080 [error] TypeError: Cannot read properties of undefined (reading 'properties')
+	at Object.provideCompletionItems (/home/truonglangquan/.vscode/extensions/felgo.felgo-2.0.1/src/extension.js:217:64)
+	at ON.provideCompletionItems (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:155157)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:178332
+	at si.G (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:169435)
+	at si.$provideCompletionItems (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:178320)
+	at l5.S (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125043)
+	at l5.Q (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124823)
+	at l5.M (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123874)
+	at l5.L (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123017)
+	at _d.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121814)
+	at I.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at _d.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:9330)
+	at I.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7564)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-01-01 18:50:56.928 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-01 18:50:57.021 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2026-01-01 18:50:57.027 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at Object.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:134608)
+	at Rw.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:24779)
+	at Rw.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:24875)
+	at Object.dispose (/home/truonglangquan/.vscode/extensions/eamodio.gitlens-17.8.1/dist/gitlens.js:72:28506)
+	at /home/truonglangquan/.vscode/extensions/eamodio.gitlens-17.8.1/dist/gitlens.js:782:58420
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/truonglangquan/.vscode/extensions/eamodio.gitlens-17.8.1/dist/gitlens.js:782:58401)
+	at Zi (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:746)
+	at oL.b (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:15172)
+	at oL.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1227)
+	at HX.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:12045)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10000
+	at Array.map (<anonymous>)
+	at HX.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:9988)
+	at HX.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10231)
+	at yN.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Us (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:11129)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7604)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-01-01 18:50:57.094 [info] Extension host with pid 1710 exiting with code 0

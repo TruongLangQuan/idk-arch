@@ -1,0 +1,45 @@
+2026-01-01 10:36:01.639 [info] [2026-01-01 03:36:01.488] [        198ms] [/home/truonglangquan/.config] git rev-parse --show-toplevel • FAILED
+2026-01-01 10:36:01.639 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-01-01 10:36:01.904 [info] [2026-01-01 03:36:01.904] [         40ms] [/home/truonglangquan/.config/quickshell/ii/modules/ii/bar] git rev-parse --show-toplevel • FAILED
+2026-01-01 10:36:01.905 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-01-01 10:36:05.334 [info] [2026-01-01 03:36:05.334] [         17ms] [/home/truonglangquan/.config/hypr] git rev-parse --show-toplevel • FAILED
+2026-01-01 10:36:05.334 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-01-01 10:36:12.795 [info] [2026-01-01 03:36:12.795] [         20ms] [/home/truonglangquan/.config/hypr/hyprland] git rev-parse --show-toplevel • FAILED
+2026-01-01 10:36:12.795 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-01-01 10:36:15.461 [info] [2026-01-01 03:36:15.461] [         18ms] [/home/truonglangquan/.config/hypr/hyprland] git rev-parse --show-toplevel • FAILED
+2026-01-01 10:36:15.461 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-01-01 10:36:18.071 [info] [2026-01-01 03:36:18.071] [         20ms] [/home/truonglangquan/.config/hypr/hyprland] git rev-parse --show-toplevel • FAILED
+2026-01-01 10:36:18.071 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-01-01 10:36:19.442 [info] [2026-01-01 03:36:19.442] [         21ms] [/home/truonglangquan/.config/hypr/hyprland] git rev-parse --show-toplevel • FAILED
+2026-01-01 10:36:19.442 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-01-01 10:36:21.877 [info] [2026-01-01 03:36:21.876] [        139ms] [/home/truonglangquan/.config/hypr/hyprland] git rev-parse --show-toplevel • FAILED
+2026-01-01 10:36:21.877 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-01-01 10:36:23.128 [info] [2026-01-01 03:36:23.128] [         17ms] [/home/truonglangquan/.config/hypr/hyprland] git rev-parse --show-toplevel • FAILED
+2026-01-01 10:36:23.128 [info] 
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+

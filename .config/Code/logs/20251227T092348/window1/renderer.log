@@ -1,0 +1,48 @@
+2025-12-27 09:23:52.529 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 21ms.
+2025-12-27 09:23:52.670 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 29ms.
+2025-12-27 09:23:52.732 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 25ms.
+2025-12-27 09:23:55.040 [info] Started local extension host with pid 25326.
+2025-12-27 09:24:03.698 [info] Extension host (LocalProcess pid: 25326) is unresponsive.
+2025-12-27 09:24:05.256 [info] MCP Registry configured: https://api.mcp.github.com
+2025-12-27 09:24:06.478 [error] [Extension Host] (node:25326) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-27 09:24:06.481 [error] [Extension Host] (node:25326) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-12-27 09:24:06.482 [info] Extension host (LocalProcess pid: 25326) is responsive.
+2025-12-27 09:24:06.789 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-12-27 09:24:07.172 [error] [File Watcher ('parcel')] Unexpected error: inotify_add_watch on '/home/truonglangquan/.config/Code/logs/20251221T185150/window1/exthost/Delgan.qml-format' failed: No such file or directory (EUNKNOWN) (path: /home/truonglangquan/.config)
+2025-12-27 09:24:07.180 [error] [File Watcher (universal)] inotify_add_watch on '/home/truonglangquan/.config/Code/logs/20251221T185150/window1/exthost/Delgan.qml-format' failed: No such file or directory
+2025-12-27 09:24:08.388 [info] [perf] Render performance baseline is 435ms
+2025-12-27 09:24:09.149 [error] [Extension Host] Sending request failed.
+2025-12-27 09:24:09.523 [error] [Extension Host] Sending request failed.
+2025-12-27 09:24:09.694 [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (file:///opt/visual-studio-code/resources/app/out/bootstrap-fork.js:3:11805)
+	at process.emit (node:events:519:28)
+2025-12-27 09:24:09.739 [error] [Extension Host] Sending request failed.
+2025-12-27 09:24:09.808 [error] [Extension Host] Sending request failed.
+2025-12-27 09:24:10.005 [error] [Extension Host] Sending request failed.
+2025-12-27 09:24:10.481 [error] Failed to fetch MCP registry providers Server returned 404
+2025-12-27 09:24:11.010 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-27 09:24:12.554 [error] An unknown error occurred. Please consult the log for more details.
+2025-12-27 09:24:12.748 [error] chatParticipant must be declared in package.json: claude-code
+2025-12-27 09:24:49.838 [error] Cannot read properties of undefined (reading 'properties'): TypeError: Cannot read properties of undefined (reading 'properties')
+	at Object.provideCompletionItems (/home/truonglangquan/.vscode/extensions/felgo.felgo-2.0.1/src/extension.js:217:64)
+	at ON.provideCompletionItems (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:155157)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:178332
+	at si.G (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:169435)
+	at si.$provideCompletionItems (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:178320)
+	at l5.S (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125043)
+	at l5.Q (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124823)
+	at l5.M (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123874)
+	at l5.L (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123017)
+	at _d.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121814)
+	at I.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at _d.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:9330)
+	at I.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2328)
+	at I.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2546)
+	at Vo.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7564)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17)

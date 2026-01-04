@@ -1,0 +1,19 @@
+2026-01-02 23:00:21.836 [info] Started local extension host with pid 9675.
+2026-01-02 23:00:29.425 [error] [Extension Host] (node:9675) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-02 23:00:29.427 [error] [Extension Host] (node:9675) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-01-02 23:00:30.345 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-02 23:00:31.695 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-02 23:00:31.943 [error] [Extension Host] Sending request failed.
+2026-01-02 23:00:32.232 [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (file:///opt/visual-studio-code/resources/app/out/bootstrap-fork.js:3:11805)
+	at process.emit (node:events:519:28)
+2026-01-02 23:00:32.234 [error] [Extension Host] Sending request failed.
+2026-01-02 23:00:32.938 [error] [Extension Host] Sending request failed.
+2026-01-02 23:00:33.215 [error] [Extension Host] Sending request failed.
+2026-01-02 23:00:33.368 [error] [Extension Host] Sending request failed.
+2026-01-02 23:00:33.524 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-02 23:00:33.592 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-02 23:00:34.411 [error] chatParticipant must be declared in package.json: claude-code
+2026-01-02 23:00:35.912 [info] [perf] Render performance baseline is 117ms
+2026-01-02 23:00:37.878 [error] Error fetching chat session options Canceled

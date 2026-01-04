@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "requesterUsername": "TruongLangQuan",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/189867009",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [],
+  "sessionId": "09569aee-5557-4dc0-a8d9-b21c05055b5b",
+  "creationDate": 1765202919421,
+  "isImported": false,
+  "lastMessageDate": 1765202919421
+}

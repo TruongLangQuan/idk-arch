@@ -1,0 +1,5 @@
+2026-01-01 10:36:00.775 [info] [project] Creating project:/home/truonglangquan/.config
+2026-01-01 10:36:00.775 [info] [qmlls] Starting QML Language Server with:
+2026-01-01 10:36:00.775 [error] [qmlls] LanguageClient has failed to start with /home/truonglangquan/.local/share/qmlls/files/qmlls
+2026-01-01 10:39:13.492 [info] [extension] Deactivating qt-qml
+2026-01-01 10:39:13.492 [info] [project] Disposing project:/home/truonglangquan/.config

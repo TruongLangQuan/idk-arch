@@ -1,0 +1,29 @@
+2026-01-04 18:16:49.313 [error] Error: The editor could not be opened because the file was not found.
+    at fAe.gc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2739:81749)
+    at async fAe.setInput (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2739:80907)
+    at async nQe.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:703:58490)
+    at async nQe.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:703:57050)
+    at async nQe.openEditor (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:703:56132)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:815:23355
+2026-01-04 18:16:49.406 [info] Started local extension host with pid 1562.
+2026-01-04 18:16:54.456 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-04 18:16:55.058 [error] [Extension Host] (node:1562) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-04 18:16:55.440 [error] [Extension Host] (node:1562) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-01-04 18:16:55.539 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-04 18:16:59.126 [info] [perf] Render performance baseline is 103ms
+2026-01-04 18:16:59.586 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-04 18:16:59.716 [error] chatParticipant must be declared in package.json: claude-code
+2026-01-04 18:17:00.537 [error] [Extension Host] Sending request failed.
+2026-01-04 18:17:00.658 [error] [Extension Host] Sending request failed.
+2026-01-04 18:17:00.681 [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (file:///opt/visual-studio-code/resources/app/out/bootstrap-fork.js:3:11805)
+	at process.emit (node:events:519:28)
+2026-01-04 18:17:00.703 [error] [Extension Host] Sending request failed.
+2026-01-04 18:17:00.714 [error] [Extension Host] Sending request failed.
+2026-01-04 18:17:00.720 [error] [Extension Host] Sending request failed.
+2026-01-04 18:17:01.737 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-04 18:33:58.656 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-04 18:33:59.600 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-04 18:33:59.639 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-04 18:34:35.242 [error] [Extension Host] (node:1562) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
