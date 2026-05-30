@@ -1,0 +1,111 @@
+/* swaync monochrome dark theme CSS */
+@define-color bg #131313;
+@define-color border #474747;
+@define-color text #e2e2e2;
+@define-color active #474747;
+@define-color inactive #1b1b1b;
+
+* {
+  font-family: 'Google Sans Flex', 'Inter', sans-serif;
+  transition: all 200ms ease;
+}
+
+.control-center {
+  background: @bg;
+  border: 1px solid @border;
+  border-radius: 15px;
+  color: @text;
+  padding: 12px;
+}
+
+.notification {
+  background: @inactive;
+  border: 1px solid @border;
+  border-radius: 12px;
+  margin: 6px;
+  color: @text;
+}
+
+.notification-content {
+  padding: 10px;
+}
+
+.notification-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.notification-body {
+  color: #c6c6c6;
+}
+
+.widget-title {
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin: 8px;
+}
+
+.widget-title > button {
+  background: @active;
+  color: @text;
+  border-radius: 10px;
+  padding: 4px 12px;
+  border: none;
+}
+
+.widget-title > button:hover {
+  background: #5c5c5c;
+}
+
+.widget-dnd {
+  margin: 8px;
+  font-size: 1.1rem;
+}
+
+.widget-dnd > switch {
+  background: @inactive;
+  border: 1px solid @border;
+  border-radius: 12px;
+}
+
+.widget-dnd > switch:checked {
+  background: @active;
+}
+
+.widget-mpris {
+  background: @inactive;
+  border: 1px solid @border;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 8px;
+}
+
+.widget-volume, .widget-backlight {
+  background: @inactive;
+  border: 1px solid @border;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 8px;
+}
+
+.widget-volume scale, .widget-backlight scale {
+  background: @border;
+}
+
+.widget-buttons-grid {
+  grid-gap: 8px;
+  margin: 8px;
+}
+
+.widget-buttons-grid > button {
+  background: @inactive;
+  border: 1px solid @border;
+  border-radius: 12px;
+  padding: 14px;
+  color: @text;
+  font-weight: bold;
+}
+
+.widget-buttons-grid > button:hover {
+  background: @active;
+}

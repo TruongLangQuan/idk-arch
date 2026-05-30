@@ -1,0 +1,12 @@
+[SddmGreeterTheme]
+Name=ii-ascii
+Description=ASCII Art TUI Theme for illogical-impulse
+Author=Antigravity
+Copyright=(c) 2026, Antigravity
+License=GPL
+Type=sddm-theme
+Version=0.1
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=ii-ascii
+Theme-API=2.0

@@ -1,0 +1,18 @@
+@define-color background #131313;
+@define-color foreground #e2e2e2;
+@define-color color1 #474747;
+@define-color color2 #ff5555;
+@define-color color3 #8be9fd;
+@define-color color4 #f1fa8c;
+@define-color color6 #50fa7b;
+
+@define-color module-bg @background;   
+@define-color tooltip-bg @background;           
+@define-color inactive @color1;               
+@define-color fg @foreground;                
+@define-color workspace-fg @fg;
+
+@define-color red @color2;
+@define-color blue @color3;
+@define-color yellow @color4;
+@define-color green @color6;

@@ -1,0 +1,12 @@
+[1]
+Active Tab Index=0
+Tab Count=1
+Tab Data 0=\x00\x00\x00\x03\x00\x00\x00\x00ofile:///run/media/truonglangquan/d850d44f-f47e-49cf-b89a-dc0bd7fd9d9f1/truonglangquan/idk-code/idk-arch/.config\x00\x00\x00\x00\x01\x00\x00\x00\x81file:///run/media/truonglangquan/d850d44f-f47e-49cf-b89a-dc0bd7fd9d9f1/truonglangquan/idk-code/idk-arch/.config/illogical-impulse\x00\x00\x00\x01\x00\x00\x00\x81file:///run/media/truonglangquan/d850d44f-f47e-49cf-b89a-dc0bd7fd9d9f1/truonglangquan/idk-code/idk-arch/.config/illogical-impulse\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x1b\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x01\x00\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00
+
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=DolphinMainWindow
+MenuBar=Disabled
+ObjectName=Dolphin#1

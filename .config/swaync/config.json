@@ -1,0 +1,90 @@
+{
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+  "positionX": "right",
+  "positionY": "top",
+  "layer": "overlay",
+  "control-center-margin-top": 8,
+  "control-center-margin-bottom": 8,
+  "control-center-margin-right": 8,
+  "control-center-margin-left": 8,
+  "notification-icon-size": 64,
+  "notification-body-image-height": 100,
+  "notification-body-image-width": 200,
+  "timeout": 10,
+  "timeout-low": 5,
+  "timeout-critical": 0,
+  "fit-to-screen": true,
+  "control-center-width": 380,
+  "control-center-height": 860,
+  "notification-window-width": 380,
+  "keyboard-shortcuts": true,
+  "image-visibility": "always",
+  "transition-time": 200,
+  "hide-on-clear": false,
+  "hide-on-action": true,
+  "widgets": [
+    "title",
+    "dnd",
+    "mpris",
+    "volume",
+    "backlight",
+    "buttons-grid",
+    "notifications"
+  ],
+  "widget-config": {
+    "title": {
+      "text": "Control Center",
+      "clear-all-button": true,
+      "button-text": "Clear All"
+    },
+    "dnd": {
+      "text": "Do Not Disturb"
+    },
+    "mpris": {
+      "image-size": 96,
+      "image-radius": 12
+    },
+    "volume": {
+      "label": "🔊"
+    },
+    "backlight": {
+      "label": "🔆"
+    },
+    "buttons-grid": {
+      "actions": [
+        {
+          "label": "📶 Wi-Fi",
+          "command": "nmcli radio wifi | grep -q enabled && nmcli radio wifi off || nmcli radio wifi on"
+        },
+        {
+          "label": "󰂯 Bluetooth",
+          "command": "bluetoothctl show | grep -q 'Powered: yes' && bluetoothctl power off || bluetoothctl power on"
+        },
+        {
+          "label": "🔒 Lock",
+          "command": "hyprlock"
+        },
+        {
+          "label": "📸 Snipping",
+          "command": "niri msg action screenshot"
+        },
+        {
+          "label": "🖼️ Wallpaper",
+          "command": "/home/truonglangquan/.config/niri/scripts/wallpaper-selector.sh"
+        },
+        {
+          "label": "⌨️ Shortcuts",
+          "command": "/home/truonglangquan/.config/niri/scripts/cheatsheet.sh"
+        },
+        {
+          "label": "⚙️ Controls",
+          "command": "/home/truonglangquan/.config/niri/scripts/system-controls.sh"
+        },
+        {
+          "label": "🚪 Exit",
+          "command": "pkill wlogout || wlogout -p layer-shell"
+        }
+      ]
+    }
+  }
+}
